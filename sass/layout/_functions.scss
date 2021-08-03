@@ -20,14 +20,12 @@
 }
 
 @media screen and (min-width: 768px) {
- 
   .subtitle {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
   }  
-
   .subtitle__item {
     flex-basis: calc((100% - 120px) / 2);
     margin-left: 30px;
@@ -37,7 +35,6 @@
       justify-content: space-between;
       }
   }
-
   .subtitle__icon {
     width: 354px;
     }
@@ -47,15 +44,12 @@
   .section-unic {
      padding-top: 94px;
     } 
-
   .subtitle{
     flex-wrap: unset;
   } 
-
   .subtitle__item {
      flex-basis: calc((100% - 120px) / 4);
   }
-
   .subtitle__icon {
      width: 270px;
     }
