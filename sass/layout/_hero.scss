@@ -11,20 +11,43 @@
 
 .hero {
   background-position: center;
-  max-width: 1600px;
+  max-width: 480px;
   background: var(--main-background);
   background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-    ), 
-    url(../img/mobile/bg-main.jpg);
+    rgba(47, 48, 58, 0.4)), 
+    url(../images/add/mobile/bg-main.jpg);
   background-size: cover;
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
 }
+
+// @media (min-device-pixel-ratio: 2) and (min-width: 480px),
+//   (min-resolution: 192dpi) and (min-width: 480px),
+//   (min-resolution: 2dppx) and (min-width: 480px) {
+//      .hero {
+//        background-image: linear-gradient(
+//     rgba(47, 48, 58, 0.4),
+//     rgba(47, 48, 58, 0.4)), 
+//        url(../images/add/mobile/bg-main@2x.jpg);
+//      }
+//   }
+
+
+
+
+// @media screen and (min-width: 786px) {
+// .hero {
+//   // max-width: 786px;
+//     background-image: linear-gradient(
+//     rgba(47, 48, 58, 0.4),
+//     rgba(47, 48, 58, 0.4)), 
+//     url(../images/add/tablet/bg-main.jpg);
+// }
+// }
 
 // .hero {
 //   background-position: center;
