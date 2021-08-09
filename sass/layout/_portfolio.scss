@@ -76,13 +76,14 @@
     .portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    // justify-content: space-between;
     margin-left: -30px;
     margin-top: -30px;
   }
     .portfolio-item {
-    flex-basis: calc((100% - 180px) / 2);
+    flex-basis: calc((100% - 60px) / 2);
     margin-left: 30px;
+    margin-top: 30px;
 }
 }
 
@@ -112,6 +113,6 @@
     margin-bottom: 50px;
   }
   .portfolio-item {
-    flex-basis: calc((100% - 270px) / 9)
+    flex-basis: calc((100% - 90px) / 3)
   }
 }
